@@ -1,0 +1,51 @@
+* {
+position: relative;
+width: 1440px;
+}
+
+.one {
+    position: absolute;
+    width: 1108.85px;
+    height: 56px;
+    left: 166.15px;
+    top: 50px;  
+}
+
+.suite {
+position: absolute;
+width: 78.41px;
+height: 24.8px;
+left: 166.15px;
+top: 62.58px;
+}
+
+.beta {
+    position: absolute;
+    width: 219px;
+    height: 56px;
+    left: 1056px;
+    top: 50px;
+}
+
+.two {
+    position: absolute;
+    width: 1110px;
+    height: 600px;
+    left: 166px;
+    top: 173px;
+}
+
+.solution {
+    position: absolute;
+width: 635px;
+height: 156px;
+left: 166px;
+top: 276px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 78px;
+letter-spacing: -1px;
+color: #172339;
+}
