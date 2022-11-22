@@ -1,6 +1,7 @@
 * {
-position: relative;
-width: 1440px;
+    position: relative;
+    width: fit-content;
+    justify-content: center;
 }
 
 .one {
@@ -12,27 +13,45 @@ width: 1440px;
 }
 
 .suite {
-position: absolute;
-width: 78.41px;
-height: 24.8px;
-left: 166.15px;
-top: 62.58px;
+    position: absolute;
+    width: 78.41px;
+    height: 24.8px;
+    left: -10%;
+    top: 62.58px;
+    color: #172339;
 }
 
 .beta {
     position: absolute;
     width: 219px;
     height: 56px;
-    left: 1056px;
+    left: 900px;
     top: 50px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+    color: #172339;
+    box-sizing: border-box;
+    border: 1px solid #172339;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.beta :hover {
+    background-color: #172339;
 }
 
 .two {
     position: absolute;
-    width: 1110px;
-    height: 600px;
-    left: 166px;
-    top: 173px;
+    width: 635x;
+    height: 405px;
+    left: 0px;
 }
 
 .solution {
@@ -48,4 +67,257 @@ font-size: 72px;
 line-height: 78px;
 letter-spacing: -1px;
 color: #172339;
+}
+
+.sales {
+    position: absolute;
+    width: 350px;
+    height: 96px;
+    left: 166px;
+    top: 472px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #49566D; 
+}
+
+button.access {
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Dark Blue */
+
+background: #172339;
+border-radius: 6px;
+}
+
+.access {
+    position: absolute;
+    width: 219px;
+    height: 56px;
+    left: 166px;
+    top: 620px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+    color: #FAF8F6;
+    margin-top: 650px;
+    margin-left: 160px;
+    box-sizing: border-box;
+    border: 1px solid #172339;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.three {
+    position: absolute;
+    width: 1109px;
+    height: 545px;
+    left: 167px;
+    top: 972px;
+    background-color: #172339;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.jeremy {
+    position: absolute;
+    width: 361px;
+    height: 590px;
+    left: 50px;
+    top: -45px;
+    text-transform: uppercase;
+}
+
+.path1 {
+    position: absolute;
+    width: 287px;
+    height: 32px;
+    left: 455px;
+    top: 222.68px;
+    border: 2px #172339;
+}
+
+div {
+    position: absolute;
+    width: 350px;
+    height: 369px;
+    left: 801px;
+    top: 1060px;
+} 
+
+.path2 {
+    position: absolute;
+    width: 64.05px;
+    height: 52px;
+    left: 500px;
+    top: 150px;
+    border: 2px solid #172339;
+    transform: matrix(1, 0, 0, 1, 0, -1);
+    -webkit-transform: matrix(1, 0, 0, 1, 0, -1);
+    -moz-transform: matrix(1, 0, 0, 1, 0, -1);
+    -ms-transform: matrix(1, 0, 0, 1, 0, -1);
+    -o-transform: matrix(1, 0, 0, 1, 0, -1);
+}
+
+.works {
+    position: absolute;
+    height: 369px;
+    left: 700px;
+    top: calc(50% - 56px/2 - 156.5px);
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;  
+    letter-spacing: -0.5px;
+    color: #FAF8F6;
+}
+
+.four {
+    position: absolute;
+    width: 190px;
+    height: 375px;
+    left: 1086px;
+    top: 279px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    color: #172339;
+}
+
+.small {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.loc {
+    position: absolute;
+    left: 0%;
+    right: 45.71%;
+    top: 92.95%;
+    bottom: 0%;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    color: #F3EDE7;
+    text-transform: uppercase;
+}
+
+.name {
+    position: absolute;
+    height: 32px;
+    left: 0%;
+    top: calc(50% - 32px/2 + 142.5px);
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+    text-transform: uppercase;
+}
+
+.miracle {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 26.02%;
+    bottom: 26.56%;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+    color: #F3EDE7;
+}
+
+.phone {
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    left: 640px;
+    top: 173px;
+    z-index: -1;
+}
+
+.footer {
+    position: absolute;
+    width: 1109px;
+    height: 32px;
+    left: 167px;
+    top: 1612px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.0833333px;
+    color: #49566D;
+}
+
+.down-suite {
+    position: absolute;
+    height: 32px;
+    left: -20%;
+    right: 92.7%;
+    top: calc(50% - 32px/2);
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.444444px;
+    color: #172339;
+}
+
+.copyright {
+    position: absolute;
+    height: 32px;
+    left: 44.27%;
+    right: 44.45%;
+    top: calc(50% - 32px/2);
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.0833333px;
+    color: #49566D;
+}
+
+.media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 116px;
+    height: 20px;
+    left: 993px;
+    top: 6px;
 }
