@@ -1,39 +1,45 @@
+/* All elements */
 * {
+    margin: 0px;
+    padding: 0px;
     position: relative;
-    width: fit-content;
-    justify-content: center;
 }
 
+/* Body of the page */
+body {
+    width: 90vw;
+    position: absolute;
+    font-family: 'Epilogue';
+    font-style: normal;
+}
+/* section one */
 .one {
     position: absolute;
     width: 1108.85px;
     height: 56px;
     left: 166.15px;
-    top: 50px;  
+    top: 0px;  
 }
-
+/* logo */
 .suite {
-    position: absolute;
     width: 78.41px;
     height: 24.8px;
-    left: -10%;
+    left: -5%;
     top: 62.58px;
     color: #172339;
 }
-
+/* button */
 .beta {
-    position: absolute;
     width: 219px;
     height: 56px;
-    left: 900px;
+    left: 850px;
     top: 50px;
-    font-family: 'Epilogue';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: -0.16px;
     color: #172339;
+    background: inherit;
     box-sizing: border-box;
     border: 1px solid #172339;
     border-radius: 6px;
@@ -42,90 +48,78 @@
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
 }
-
-.beta :hover {
+/* hover button */
+.beta:hover {
+    color: #F3EDE7;
+    cursor: pointer;
     background-color: #172339;
 }
-
+/* section two */
 .two {
     position: absolute;
     width: 635x;
     height: 405px;
-    left: 0px;
+    left: -50px;
 }
 
 .solution {
-    position: absolute;
-width: 635px;
-height: 156px;
-left: 166px;
-top: 276px;
-font-family: 'Epilogue';
-font-style: normal;
-font-weight: 400;
-font-size: 72px;
-line-height: 78px;
-letter-spacing: -1px;
-color: #172339;
+    width: 635px;
+    height: 156px;
+    left: 166px;
+    top: 276px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 78px;
+    letter-spacing: -1px;
+    color: #172339;
 }
-
+/* paragraph */
 .sales {
-    position: absolute;
     width: 350px;
     height: 96px;
     left: 166px;
     top: 472px;
-    font-family: 'Epilogue';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     letter-spacing: 0.1px;
     color: #49566D; 
 }
-
-button.access {
-    position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-/* Dark Blue */
-
-background: #172339;
-border-radius: 6px;
-}
-
+/* button */
 .access {
     position: absolute;
     width: 219px;
     height: 56px;
-    left: 166px;
-    top: 620px;
-    font-family: 'Epilogue';
-    font-style: normal;
+    left: 0px;
+    top: 0px;
     font-weight: 700;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: -0.16px;
+    background: #172339;
     color: #FAF8F6;
     margin-top: 650px;
     margin-left: 160px;
     box-sizing: border-box;
-    border: 1px solid #172339;
+    border: 1px none #172339;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
 }
-
+/* hover button */
+.access:hover {
+    color: #F3EDE7;
+    cursor: pointer;
+    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+}
+/* section three */
 .three {
     position: absolute;
     width: 1109px;
     height: 545px;
-    left: 167px;
+    left: 120px;
     top: 972px;
     background-color: #172339;
     border-radius: 15px;
@@ -134,21 +128,31 @@ border-radius: 6px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
-
+/* image of a man */
 .jeremy {
-    position: absolute;
     width: 361px;
     height: 590px;
     left: 50px;
     top: -45px;
     text-transform: uppercase;
+    z-index: 1;
 }
-
+/* pattern blur svg */
+.pattern {
+    width: 294px;
+    height: 294px;
+    left: 39px;
+    top: 182px;
+    background: #DB65E2;
+    mix-blend-mode: normal;
+    opacity: 0.48;
+    filter: blur(67.957px);
+}
+/* pattern curved line svg  */
 .path1 {
-    position: absolute;
     width: 287px;
     height: 32px;
-    left: 455px;
+    left: 410px;
     top: 222.68px;
     border: 2px #172339;
 }
@@ -160,9 +164,8 @@ div {
     left: 801px;
     top: 1060px;
 } 
-
+/* pattern blur svg */
 .path2 {
-    position: absolute;
     width: 64.05px;
     height: 52px;
     left: 500px;
@@ -176,102 +179,89 @@ div {
 }
 
 .works {
-    position: absolute;
     height: 369px;
     left: 700px;
     top: calc(50% - 56px/2 - 156.5px);
-    font-family: 'Epilogue';
-    font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 56px;  
     letter-spacing: -0.5px;
     color: #FAF8F6;
 }
-
+/* section four */
 .four {
-    position: absolute;
     width: 190px;
     height: 375px;
-    left: 1086px;
+    left: 1050px;
     top: 279px;
-    font-family: 'Epilogue';
-    font-style: normal;
     font-weight: 200;
     font-size: 30px;
-    line-height: 20px;
+    line-height: 80px;
     letter-spacing: -1px;
     color: #172339;
 }
 
 .small {
-    font-size: 15px;
+    width: 190px;
+    height: 50px;
+    font-size: 16px;
     text-transform: uppercase;
+    top: -20px;
+    color: #49566D;
+    letter-spacing: 2.5px;
+    line-height: 60px;
 }
 
 .loc {
-    position: absolute;
     left: 0%;
     right: 45.71%;
-    top: 92.95%;
+    top: 20px;
     bottom: 0%;
-    font-family: 'Epilogue';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 100px;
     letter-spacing: 2.5px;
     color: #F3EDE7;
     text-transform: uppercase;
 }
 
 .name {
-    position: absolute;
     height: 32px;
     left: 0%;
-    top: calc(50% - 32px/2 + 142.5px);
-    font-family: 'Epilogue';
-    font-style: normal;
+    top: 40px;
     font-weight: 700;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 70px;
     letter-spacing: -0.18px;
     color: #FAF8F6;
     text-transform: uppercase;
 }
-
+/* paragraph */
 .miracle {
-    position: absolute;
     left: 0%;
     right: 0%;
-    top: 26.02%;
+    top: 20px;
     bottom: 26.56%;
-    font-family: 'Epilogue';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
     letter-spacing: 0.1px;
     color: #F3EDE7;
 }
-
+/* image of phone */
 .phone {
-    position: absolute;
     width: 350px;
     height: 600px;
-    left: 640px;
+    left: 590px;
     top: 173px;
     z-index: -1;
 }
-
+/* footer */
 .footer {
-    position: absolute;
     width: 1109px;
     height: 32px;
     left: 167px;
-    top: 1612px;
-    font-family: 'Epilogue';
-    font-style: normal;
+    top: 370px;
     font-weight: 400;
     font-size: 15px;
     line-height: 32px;
@@ -280,29 +270,31 @@ div {
     color: #49566D;
 }
 
-.down-suite {
+.foot {
     position: absolute;
+    width: 1350px;
+    height: 464px;
+    left: -1px;
+    top: 1252px;
+    background: #F3EDE7;
+    z-index: -1;
+}
+/* button */
+.down-suite {
     height: 32px;
-    left: -20%;
+    left: -15%;
     right: 92.7%;
-    top: calc(50% - 32px/2);
-    font-family: 'Epilogue';
-    font-style: normal;
+    top: 6px;
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
     letter-spacing: -0.444444px;
     color: #172339;
 }
-
+/* copyright */
 .copyright {
-    position: absolute;
     height: 32px;
-    left: 44.27%;
-    right: 44.45%;
-    top: calc(50% - 32px/2);
-    font-family: 'Epilogue';
-    font-style: normal;
+    left: -50px;
     font-weight: 400;
     font-size: 15px;
     line-height: 32px;
@@ -310,14 +302,20 @@ div {
     letter-spacing: 0.0833333px;
     color: #49566D;
 }
-
+/* social meadia icons */
 .media {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: absolute;
     width: 116px;
     height: 20px;
-    left: 993px;
+    left: 960px;
     top: 6px;
+}
+
+.media :hover {
+    cursor: pointer;
+    background: #172339;
+    opacity: 0.5;
+    background-color: white;
 }
