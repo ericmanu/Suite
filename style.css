@@ -12,19 +12,32 @@ body {
     font-family: 'Epilogue';
     font-style: normal;
 }
-/* section one */
-.one {
-    position: absolute;
+main {
+    width: 1108.85px;
+    margin: 0 ;
+}
+.page {
+    padding: 2rem;
+    width: 1110px;
+    color: #FAF8F6;
+}
+/* nav bar */
+.nav {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: absolute;
     width: 1108.85px;
     height: 56px;
     left: 166.15px;
-    top: 0px;  
+    top: 0px;   */
 }
 /* logo */
 .suite {
     width: 78.41px;
     height: 24.8px;
-    left: -5%;
+    left: 80px;
     top: 62.58px;
     color: #172339;
 }
@@ -32,7 +45,7 @@ body {
 .beta {
     width: 219px;
     height: 56px;
-    left: 850px;
+    left: 90%;
     top: 50px;
     font-weight: 700;
     font-size: 16px;
@@ -57,7 +70,7 @@ body {
 /* section two */
 .two {
     position: absolute;
-    width: 635x;
+    width: 635px;
     height: 405px;
     left: -50px;
 }
@@ -303,7 +316,7 @@ div {
     color: #49566D;
 }
 /* social meadia icons */
-.media {
+.handle {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -312,10 +325,100 @@ div {
     left: 960px;
     top: 6px;
 }
-
-.media :hover {
+.handle :hover {
     cursor: pointer;
     background: #172339;
     opacity: 0.5;
     background-color: white;
+}
+/* responsive styles */
+/* tablet */
+@media screen and (max-width: 768px) {
+    .page{
+        width: 768px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .nav {
+        width: 500px;
+        left: 39px;
+    }
+    .suite {
+        left: 0px;
+    }
+    .a{
+        left: -160px;
+    }
+    .two {
+        left: 39px;
+    }
+    .phone {
+        width: 350px;
+        height: 482px;
+        left: 510px;
+        top: 173px;
+    }
+    .solution {
+        top: 264px;
+        font-size: 45px;
+        line-height: 64px;
+        letter-spacing: -0.777778pxpx;
+    }
+    .sales {
+        left: 166px;
+        top: 433px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+    }
+    .access {
+        top: -60px;
+    }
+    .four {
+        display: flex;
+        width: 689px;
+        height: 83px;
+        left: 100px;
+        top: 800px;
+    }
+   
+    .small {    
+        width: 689px;
+        top: 40px;
+        left: -70px;
+        letter-spacing: 2.5px;
+        line-height: 80px;
+    }
+    .three {
+        width: 689px;
+        height: 684px;
+        left: 39px;
+        top: 1302px;
+        z-index: 1;
+    }
+    .jeremy {
+        width: 689px;
+        height: 402px;
+        left: 150px;
+        top: -250px;
+    }
+    .pattern {
+        width: 400px;
+        height:50px ;
+        left: 80px;
+        top: -40px;
+        background: #DB65E2;
+        mix-blend-mode: normal;
+        opacity: 0.48;
+        filter: blur(67.957px);
+    }
+    .foot {
+        width: 768px;
+        height: 640px;
+        left: 0px;
+        top: 1532px;
+        background: #F3EDE7;
+        z-index: -1;
+    }
 }
