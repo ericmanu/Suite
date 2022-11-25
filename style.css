@@ -14,7 +14,7 @@ body {
 }
 main {
     width: 1108.85px;
-    margin: 0 ;
+    margin: 0px ;
 }
 .page {
     padding: 2rem;
@@ -147,8 +147,10 @@ main {
     height: 590px;
     left: 50px;
     top: -45px;
-    text-transform: uppercase;
     z-index: 1;
+}
+.jeremy1 {
+    display: none;
 }
 /* pattern blur svg */
 .pattern {
@@ -183,7 +185,7 @@ div {
     height: 52px;
     left: 500px;
     top: 150px;
-    border: 2px solid #172339;
+    border: 2px none #172339;
     transform: matrix(1, 0, 0, 1, 0, -1);
     -webkit-transform: matrix(1, 0, 0, 1, 0, -1);
     -moz-transform: matrix(1, 0, 0, 1, 0, -1);
@@ -334,6 +336,10 @@ div {
 /* responsive styles */
 /* tablet */
 @media screen and (max-width: 768px) {
+    main{
+        width: 768px;
+
+    }
     .page{
         width: 768px;
         margin: 0px;
@@ -346,7 +352,7 @@ div {
     .suite {
         left: 0px;
     }
-    .a{
+    .action{
         left: -160px;
     }
     .two {
@@ -398,20 +404,52 @@ div {
         z-index: 1;
     }
     .jeremy {
-        width: 689px;
-        height: 402px;
-        left: 150px;
-        top: -250px;
+        display: none;
+    }
+    .jeremy1 {
+        display: inline;
+        left: 200px;
+        top: -170px;
     }
     .pattern {
-        width: 400px;
-        height:50px ;
+        width: 0px;
+        height:0px ;
         left: 80px;
-        top: -40px;
+        top: -200px;
         background: #DB65E2;
         mix-blend-mode: normal;
         opacity: 0.48;
         filter: blur(67.957px);
+    }
+    .path1{
+        left: 250px;
+    }
+    .path2 {
+        left: 300px;
+        top: 270px;
+     }
+     .works {
+        height: 369px;
+        left: 200px;
+        top: 350px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;  
+        letter-spacing: -0.5px;
+    }
+    .miracle {
+        left: -140px;
+        width: 558px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .name {
+        text-align: center;
+        left: -40px;
+    }
+    .loc {
+        text-align: center;
+        left: -40px;
     }
     .foot {
         width: 768px;
@@ -421,4 +459,57 @@ div {
         background: #F3EDE7;
         z-index: -1;
     }
+    .footer {
+        width: 689px;
+        height: 32px;
+        left: 16px;
+        top: 520px;
+        font-weight: 400;
+        text-align: center;
+    } 
+    .handle {
+        width: 116px;
+        height: 20px;
+        left: 596px;
+        top: 6px;
+    }
+    .copyright {
+        left: 15px;
+    }
+}
+/* Mobile */
+@media screen and (max-width: 375px) {
+    main{
+        width: 375px;
+    }
+    .page{
+        width: 375px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .nav {
+        width: 343px;
+        left: 30px;
+    }
+    .beta {
+        width: 182px;
+        height: 56px;
+    }
+    .two {
+        width: 343.5px;
+        height: 325.32px;
+        left: 69px;
+        top: -70px;
+    }
+    .path1 {
+        top: 100px;
+        left: 350px;
+    }
+    .solution {
+        top: 264px;
+        font-size: 38px;
+        line-height: 64px;
+        letter-spacing: -0.777778pxpx;
+    }
+
 }
