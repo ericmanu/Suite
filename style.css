@@ -14,7 +14,7 @@ body {
 }
 main {
     width: 1108.85px;
-    margin: 0px ;
+    margin: 0px;
 }
 .page {
     padding: 2rem;
@@ -334,11 +334,10 @@ div {
     background-color: white;
 }
 /* responsive styles */
-/* tablet */
+/* tablet responsive */
 @media screen and (max-width: 768px) {
     main{
         width: 768px;
-
     }
     .page{
         width: 768px;
@@ -359,16 +358,19 @@ div {
         left: 39px;
     }
     .phone {
-        width: 350px;
+        width: 281px;
         height: 482px;
         left: 510px;
         top: 173px;
+    }
+    .phone1 {
+        display: none;
     }
     .solution {
         top: 264px;
         font-size: 45px;
         line-height: 64px;
-        letter-spacing: -0.777778pxpx;
+        letter-spacing: -0.777778px;
     }
     .sales {
         left: 166px;
@@ -410,17 +412,18 @@ div {
         display: inline;
         left: 200px;
         top: -170px;
+        z-index: 1;
     }
     .pattern {
-        width: 0px;
-        height:0px ;
+        width: 200px;
+        height:10px ;
         left: 80px;
-        top: -200px;
+        top: -100px;
         background: #DB65E2;
         mix-blend-mode: normal;
         opacity: 0.48;
         filter: blur(67.957px);
-    }
+}
     .path1{
         left: 250px;
     }
@@ -456,7 +459,6 @@ div {
         height: 640px;
         left: 0px;
         top: 1532px;
-        background: #F3EDE7;
         z-index: -1;
     }
     .footer {
@@ -477,7 +479,7 @@ div {
         left: 15px;
     }
 }
-/* Mobile */
+/* Mobile responsive */
 @media screen and (max-width: 375px) {
     main{
         width: 375px;
@@ -489,11 +491,12 @@ div {
     }
     .nav {
         width: 343px;
-        left: 30px;
+        left: 20px;
     }
     .beta {
         width: 182px;
         height: 56px;
+        left: 150px;
     }
     .two {
         width: 343.5px;
@@ -502,14 +505,76 @@ div {
         top: -70px;
     }
     .path1 {
+        width: 151.47px;
+        height: 19px;
         top: 100px;
-        left: 350px;
+        left: 230px;
     }
     .solution {
-        top: 264px;
+        top: 200px;
+        left: 110px;
         font-size: 38px;
         line-height: 64px;
-        letter-spacing: -0.777778pxpx;
+        letter-spacing: -0.777778px;
     }
-
+    .sales {
+        width: 343px;
+        height: 84px;
+        top: 350px;
+        left: 110px;
+    }
+    .access {
+        top: -170px;
+        left: -50px;
+    }
+    .phone {
+        display: none;
+    }
+    .phone1{
+        display: inline;
+        top: 520px;
+        left: 175px;
+    }
+    .four {
+        display: block;        
+        text-align: center;
+        width: 344px;
+        height: 313px;
+        left: 10px;
+        top: 835px;
+    }
+    .small {    
+        top: -40px;
+        left: -170px;
+        letter-spacing: 2.5px;
+        line-height: 80px;
+        text-align: center;
+    }
+    .three {
+        width: 375px;
+        height: 748px;
+        left: 0px;
+        top: 1490px;
+    }
+    .jeremy1 {
+        left: 80px;
+    }
+    .pattern {
+        width: 10px;
+        height:10px ;
+        left: -160px;
+        background: #DB65E2;
+        mix-blend-mode: normal;
+        opacity: 0.48;
+        filter: blur(67.957px);
+    }
+        .path2 {
+        left: 150px;
+        top: 270px;
+     }
+     .works {
+        height: 369px;
+        left: 80px;
+        top: 350px;
+    }
 }
