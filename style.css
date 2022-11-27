@@ -504,11 +504,12 @@ div {
         left: 69px;
         top: -70px;
     }
-    .path1 {
-        width: 151.47px;
-        height: 19px;
+    .path {
         top: 100px;
-        left: 230px;
+        left: 330px;
+    }
+    .path1 {
+        display: none;
     }
     .solution {
         top: 200px;
@@ -574,7 +575,51 @@ div {
      }
      .works {
         height: 369px;
-        left: 80px;
+        left: 70px;
         top: 350px;
+    }
+    .miracle {
+        left: -60px;
+        width: 343px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .name {
+        text-align: center;
+        left: -60px;
+    }
+    .loc {
+        text-align: center;
+        left: -60px;
+    }
+    .foot {
+        width: 377px;
+        height: 420px;
+        left: 0px;
+        top: 2100px;
+        z-index: -1;
+    }
+    .footer {
+        display: block;
+        width: 125px;
+        height: 32px;
+        left: 16px;
+        top: 300px;
+        font-weight: 400;
+        text-align: center;
+    } 
+    .down-suite {
+        top: -100px;
+        left: 0px;
+    }
+    .copyright {
+        width: 125px;
+        top: -40px;
+        left: 110px;
+    }
+    .handle {
+        width: 125px;
+        left: 110px;
+        top: 30px;
     }
 }
