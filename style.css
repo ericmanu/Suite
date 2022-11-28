@@ -4,7 +4,6 @@
     padding: 0px;
     position: relative;
 }
-
 /* Body of the page */
 body {
     width: 90vw;
@@ -27,11 +26,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: absolute;
-    width: 1108.85px;
-    height: 56px;
-    left: 166.15px;
-    top: 0px;   */
 }
 /* logo */
 .suite {
@@ -56,10 +50,6 @@ main {
     box-sizing: border-box;
     border: 1px solid #172339;
     border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
 }
 /* hover button */
 .beta:hover {
@@ -74,7 +64,6 @@ main {
     height: 405px;
     left: -50px;
 }
-
 .solution {
     width: 635px;
     height: 156px;
@@ -116,10 +105,6 @@ main {
     box-sizing: border-box;
     border: 1px none #172339;
     border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
 }
 /* hover button */
 .access:hover {
@@ -136,10 +121,6 @@ main {
     top: 972px;
     background-color: #172339;
     border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
 }
 /* image of a man */
 .jeremy {
@@ -171,7 +152,9 @@ main {
     top: 222.68px;
     border: 2px #172339;
 }
-
+.path {
+    display: none;
+}
 div {
     position: absolute;
     width: 350px;
@@ -187,12 +170,7 @@ div {
     top: 150px;
     border: 2px none #172339;
     transform: matrix(1, 0, 0, 1, 0, -1);
-    -webkit-transform: matrix(1, 0, 0, 1, 0, -1);
-    -moz-transform: matrix(1, 0, 0, 1, 0, -1);
-    -ms-transform: matrix(1, 0, 0, 1, 0, -1);
-    -o-transform: matrix(1, 0, 0, 1, 0, -1);
 }
-
 .works {
     height: 369px;
     left: 700px;
@@ -215,7 +193,6 @@ div {
     letter-spacing: -1px;
     color: #172339;
 }
-
 .small {
     width: 190px;
     height: 50px;
@@ -226,7 +203,6 @@ div {
     letter-spacing: 2.5px;
     line-height: 60px;
 }
-
 .loc {
     left: 0%;
     right: 45.71%;
@@ -239,7 +215,6 @@ div {
     color: #F3EDE7;
     text-transform: uppercase;
 }
-
 .name {
     height: 32px;
     left: 0%;
@@ -284,7 +259,6 @@ div {
     letter-spacing: 0.0833333px;
     color: #49566D;
 }
-
 .foot {
     position: absolute;
     width: 1350px;
@@ -336,6 +310,9 @@ div {
 /* responsive styles */
 /* tablet responsive */
 @media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
     main{
         width: 768px;
     }
@@ -369,16 +346,11 @@ div {
     .solution {
         top: 264px;
         font-size: 45px;
-        line-height: 64px;
-        letter-spacing: -0.777778px;
     }
     .sales {
         left: 166px;
         top: 433px;
-        font-weight: 400;
         font-size: 16px;
-        line-height: 32px;
-        letter-spacing: 0.1px;
     }
     .access {
         top: -60px;
@@ -390,13 +362,10 @@ div {
         left: 100px;
         top: 800px;
     }
-   
     .small {    
         width: 689px;
         top: 40px;
         left: -70px;
-        letter-spacing: 2.5px;
-        line-height: 80px;
     }
     .three {
         width: 689px;
@@ -419,10 +388,6 @@ div {
         height:10px ;
         left: 80px;
         top: -100px;
-        background: #DB65E2;
-        mix-blend-mode: normal;
-        opacity: 0.48;
-        filter: blur(67.957px);
 }
     .path1{
         left: 250px;
@@ -435,15 +400,10 @@ div {
         height: 369px;
         left: 200px;
         top: 350px;
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 56px;  
-        letter-spacing: -0.5px;
     }
     .miracle {
         left: -140px;
         width: 558px;
-        font-size: 18px;
         text-align: center;
     }
     .name {
@@ -466,8 +426,6 @@ div {
         height: 32px;
         left: 16px;
         top: 520px;
-        font-weight: 400;
-        text-align: center;
     } 
     .handle {
         width: 116px;
@@ -481,6 +439,9 @@ div {
 }
 /* Mobile responsive */
 @media screen and (max-width: 375px) {
+    body {
+        overflow-x: hidden;
+    }
     main{
         width: 375px;
     }
@@ -515,8 +476,6 @@ div {
         top: 200px;
         left: 110px;
         font-size: 38px;
-        line-height: 64px;
-        letter-spacing: -0.777778px;
     }
     .sales {
         width: 343px;
@@ -547,9 +506,6 @@ div {
     .small {    
         top: -40px;
         left: -170px;
-        letter-spacing: 2.5px;
-        line-height: 80px;
-        text-align: center;
     }
     .three {
         width: 375px;
@@ -564,10 +520,6 @@ div {
         width: 10px;
         height:10px ;
         left: -160px;
-        background: #DB65E2;
-        mix-blend-mode: normal;
-        opacity: 0.48;
-        filter: blur(67.957px);
     }
         .path2 {
         left: 150px;
@@ -581,11 +533,8 @@ div {
     .miracle {
         left: -60px;
         width: 343px;
-        font-size: 18px;
-        text-align: center;
     }
     .name {
-        text-align: center;
         left: -60px;
     }
     .loc {
@@ -604,9 +553,7 @@ div {
         width: 125px;
         height: 32px;
         left: 16px;
-        top: 300px;
-        font-weight: 400;
-        text-align: center;
+        top: 300px;  
     } 
     .down-suite {
         top: -100px;
