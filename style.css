@@ -308,7 +308,7 @@ div {
     background-color: white;
 }
 /* responsive styles */
-/* tablet responsive */
+/* tablet responsiveness */
 @media screen and (max-width: 768px) {
     body {
         overflow-x: hidden;
@@ -437,7 +437,7 @@ div {
         left: 15px;
     }
 }
-/* Mobile responsive */
+/* Mobile responsiveness */
 @media screen and (max-width: 375px) {
     body {
         overflow-x: hidden;
