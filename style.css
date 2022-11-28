@@ -308,12 +308,12 @@ div {
     background-color: white;
 }
 /* responsive styles */
-/* tablet responsiveness */
+/*  tablet responsiveness  */  
 @media screen and (max-width: 768px) {
-    body {
+    body {     
         overflow-x: hidden;
     }
-    main{
+    main{  
         width: 768px;
     }
     .page{
