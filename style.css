@@ -310,7 +310,7 @@ div {
 /* responsive styles */
 /*  tablet responsiveness  */  
 @media screen and (max-width: 768px) {
-    main{  
+    main{         
         overflow-x: hidden;
         height:1000px ;
         width: 768px;
@@ -324,7 +324,7 @@ div {
     .nav {
         width: 500px;
         left: 39px;
-    }
+    }     
     .suite {
         left: 0px;
     }
@@ -388,7 +388,7 @@ div {
         height:10px ;
         left: 80px;
         top: -100px;
-}
+    }
     .path1{
         left: 250px;
     }
