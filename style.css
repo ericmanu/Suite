@@ -309,12 +309,11 @@ div {
 }
 /* responsive styles */
 /*  tablet responsiveness  */  
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 430px) {
     main{         
         overflow-x: hidden;
-        height:1000px ;
         width: 768px;
-        height: 100vh;
+        height: 150vh;
     }
     .page{
         width: 768px;
@@ -439,7 +438,7 @@ div {
     }
 }
 /* Mobile responsiveness */
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 430px) and (min-width: 280px) {
     main{
         overflow-x: hidden;
         width: 375px;
@@ -452,22 +451,23 @@ div {
     }
     .nav {
         width: 343px;
-        left: 20px;
+        left: -60px;
     }
     .beta {
         width: 182px;
         height: 56px;
-        left: 150px;
+        left: 230px;
     }
     .two {
         width: 343.5px;
         height: 325.32px;
-        left: 69px;
+        left: -90px;
         top: -70px;
     }
     .path {
+        display: inline;
         top: 100px;
-        left: 330px;
+        left: 170px;
     }
     .path1 {
         display: none;
@@ -476,15 +476,17 @@ div {
         top: 200px;
         left: 110px;
         font-size: 38px;
+        line-height: 44px;
     }
     .sales {
         width: 343px;
         height: 84px;
-        top: 350px;
+        top: 300px;
         left: 110px;
+        font-size: 16px;
     }
     .access {
-        top: -170px;
+        top: -200px;
         left: -50px;
     }
     .phone {
@@ -493,7 +495,7 @@ div {
     .phone1{
         display: inline;
         top: 520px;
-        left: 175px;
+        left: 17px;
     }
     .four {
         display: block;        
@@ -504,8 +506,8 @@ div {
         top: 835px;
     }
     .small {    
-        top: -40px;
-        left: -170px;
+        top: -30px;
+        left: 80px;
     }
     .three {
         width: 375px;
@@ -517,12 +519,15 @@ div {
         display: none;
     }
     .jeremy1 {
+        display: inline;
         left: 80px;
+        top: -170px;
     }
     .pattern {
+        top: -100px;
         width: 10px;
         height:10px ;
-        left: -160px;
+        left: -100px;
     }
         .path2 {
         left: 150px;
@@ -535,11 +540,13 @@ div {
         font-size: 40px;
     }
     .miracle {
-        left: -60px;
+        left: -55px;
         width: 343px;
         font-size: 18px;
+        text-align: center;
     }
     .name {
+        text-align: center;
         left: -60px;
     }
     .loc {
