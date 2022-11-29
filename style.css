@@ -310,11 +310,11 @@ div {
 /* responsive styles */
 /*  tablet responsiveness  */  
 @media screen and (max-width: 768px) {
-    body {     
-        overflow-x: hidden;
-    }
     main{  
+        overflow-x: hidden;
+        height:1000px ;
         width: 768px;
+        height: 100vh;
     }
     .page{
         width: 768px;
@@ -404,6 +404,7 @@ div {
     .miracle {
         left: -140px;
         width: 558px;
+        font-size: 18px;
         text-align: center;
     }
     .name {
@@ -439,11 +440,10 @@ div {
 }
 /* Mobile responsiveness */
 @media screen and (max-width: 375px) {
-    body {
-        overflow-x: hidden;
-    }
     main{
+        overflow-x: hidden;
         width: 375px;
+        height: 100vh;
     }
     .page{
         width: 375px;
@@ -513,6 +513,9 @@ div {
         left: 0px;
         top: 1490px;
     }
+    .jeremy{
+        display: none;
+    }
     .jeremy1 {
         left: 80px;
     }
@@ -529,10 +532,12 @@ div {
         height: 369px;
         left: 70px;
         top: 350px;
+        font-size: 40px;
     }
     .miracle {
         left: -60px;
         width: 343px;
+        font-size: 18px;
     }
     .name {
         left: -60px;
