@@ -1,6 +1,6 @@
 # Suite Landing Page | README Guide
 
-![Amalitech](amalitech.jpg)
+![Amalitech](amalitech.jpeg)
 
 # Project Discription
 
