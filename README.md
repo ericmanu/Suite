@@ -25,7 +25,7 @@ HTML and CSS
 # Preview
 
 ## Desktop 
-<img src="desktop.png" width=800px height=800px>
+<img src="desktop.png" width=800px height=1000px>
 
 ## Tablet
 <img src="tablet.png" width=400px height=1200px>
