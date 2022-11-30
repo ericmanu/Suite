@@ -13,14 +13,14 @@ The suite landing page is a web application that helps users to scale their outr
 
 https://suite-umber.vercel.app/
 
-## Tech
+## Tech Stack
 
 HTML and CSS
 
 ## Features
 
 1. Device responsivess.
-2. Hover button effect for desktop view.
+2. Hover button effect.
 
 # Preview
 

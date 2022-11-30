@@ -313,7 +313,7 @@ div {
     main{         
         overflow-x: hidden;
         width: 768px;
-        height: 150vh;
+        height: 100vh;
     }
     .page{
         width: 768px;
