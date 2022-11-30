@@ -25,13 +25,13 @@ HTML and CSS
 # Preview
 
 ## Desktop 
-<img src="desktop.png" width=800px height=1200px>
+<img src="desktop.png" width=800px height=800px>
 
 ## Tablet
-<img src="tablet.png" width=400px height=800px>
+<img src="tablet.png" width=400px height=1200px>
 
 ## Mobile
-<img src="mobile.png" width=300px height=1500px>
+<img src="mobile.png" width=300px height=2000px>
 
 ## Lessons Learned 
 
