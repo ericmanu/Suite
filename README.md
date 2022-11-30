@@ -11,7 +11,7 @@ Suite landing page is a web application that helps users to scale their outreach
 
 ## Live Project Link 
 
-https://
+https://suite-umber.vercel.app/
 
 ## Tech
 
@@ -24,3 +24,8 @@ HTML and CSS
 
 ## Preview
 
+<img src="desktop.png">
+
+## Lessons learned 
+
+Using media queries to make a page responsive
