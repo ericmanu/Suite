@@ -4,7 +4,7 @@
 
 # Project Discription
 
-Suite landing page is a web application that helps users to scale their outreach to get more leads for their company.
+The suite landing page is a web application that helps users to scale their outreach to get more leads for their company. It enables users to:
 
 1. View the optimal layout depending on their device's screen size
 2. See hover states for interactive elements
@@ -31,8 +31,11 @@ HTML and CSS
 <img src="tablet.png" width=400px height=800px>
 
 ## Mobile
-<img sre="mobile.png" width=300px height=800px>
+<img src="mobile.png" width=300px height=800px>
 
-## Lessons learned 
+## Lessons Learned 
 
-Using media queries to effectively make a page responsive.
+Learned how to use media queries to make a page responsive.
+
+
+[@ericmanu] (https://github.com/ericmanu)
