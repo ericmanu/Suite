@@ -28,7 +28,7 @@ HTML and CSS
 <img src="desktop.png" width=800px height=1000px>
 
 ## Tablet
-<img src="tablet.png" width=400px height=1200px>
+<img src="tablet.png" width=500px height=1200px>
 
 ## Mobile
 <img src="mobile.png" width=300px height=2000px>
