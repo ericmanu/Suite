@@ -25,6 +25,7 @@ HTML and CSS
 ## Preview
 
 <img src="desktop.png">
+<img src="tablet.png">
 
 ## Lessons learned 
 
