@@ -25,17 +25,17 @@ HTML and CSS
 # Preview
 
 ## Desktop 
-<img src="desktop.png" width=800px height=800px>
+<img src="desktop.png" width=800px height=1200px>
 
 ## Tablet
 <img src="tablet.png" width=400px height=800px>
 
 ## Mobile
-<img src="mobile.png" width=300px height=800px>
+<img src="mobile.png" width=300px height=1500px>
 
 ## Lessons Learned 
 
 Learned how to use media queries to make a page responsive.
 
-
+##
 [@ericmanu] (https://github.com/ericmanu)
