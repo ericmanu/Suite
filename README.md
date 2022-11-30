@@ -22,11 +22,17 @@ HTML and CSS
 1. Device responsivess.
 2. Hover button effect for desktop view.
 
-## Preview
+# Preview
 
-<img src="desktop.png">
-<img src="tablet.png">
+## Desktop 
+<img src="desktop.png" width=800px height=800px>
+
+## Tablet
+<img src="tablet.png" width=400px height=800px>
+
+## Mobile
+<img sre="mobile.png" width=300px height=800px>
 
 ## Lessons learned 
 
-Using media queries to make a page responsive
+Using media queries to effectively make a page responsive.
