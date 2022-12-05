@@ -22,6 +22,7 @@ main {
 }
 /* nav bar */
 .nav {
+    margin-top: -40px;
     height: 56px;
     display: flex;
     justify-content: space-between;
@@ -31,7 +32,7 @@ main {
 .suite {
     width: 78.41px;
     height: 24.8px;
-    left: 80px;
+    left: 120px;
     top: 62.58px;
     color: #172339;
 }
@@ -57,6 +58,9 @@ main {
     cursor: pointer;
     background-color: #172339;
 }
+.action {
+    top: -50px;
+}
 /* section two */
 .two {
     position: absolute;
@@ -69,7 +73,7 @@ main {
     height: 156px;
     left: 166px;
     top: 276px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 72px;
     line-height: 78px;
     letter-spacing: -1px;
@@ -81,7 +85,7 @@ main {
     height: 96px;
     left: 166px;
     top: 472px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 32px;
     letter-spacing: 0.1px;
@@ -92,8 +96,8 @@ main {
     position: absolute;
     width: 219px;
     height: 56px;
-    left: 0px;
-    top: 0px;
+    left: 5px;
+    top: -30px;
     font-weight: 700;
     font-size: 16px;
     line-height: 32px;
@@ -173,7 +177,7 @@ div {
 }
 .works {
     height: 369px;
-    left: 700px;
+    left: 630px;
     top: calc(50% - 56px/2 - 156.5px);
     font-weight: 400;
     font-size: 48px;
@@ -186,10 +190,10 @@ div {
     width: 190px;
     height: 375px;
     left: 1050px;
-    top: 279px;
-    font-weight: 200;
-    font-size: 30px;
-    line-height: 80px;
+    top: 200px;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 100px;
     letter-spacing: -1px;
     color: #172339;
 }
@@ -197,8 +201,9 @@ div {
     width: 190px;
     height: 50px;
     font-size: 16px;
+    font-weight: 400;
     text-transform: uppercase;
-    top: -20px;
+    top: -30px;
     color: #49566D;
     letter-spacing: 2.5px;
     line-height: 60px;
@@ -313,7 +318,8 @@ div {
     main{         
         overflow-x: hidden;
         width: 768px;
-        height: 100vh;
+        height: 240vh;
+        scroll-behavior: smooth;
     }
     .page{
         width: 768px;
@@ -356,21 +362,24 @@ div {
     }
     .four {
         display: flex;
+        justify-content: space-evenly;
+        text-align: center;
         width: 689px;
         height: 83px;
         left: 100px;
         top: 800px;
     }
-    .small {    
-        width: 689px;
-        top: 40px;
-        left: -70px;
+    .small {   
+        display: inherit;
+        text-align: center;
+        top: 60px;
+        left: -80px;
     }
     .three {
         width: 689px;
         height: 684px;
         left: 39px;
-        top: 1302px;
+        top: 1202px;
         z-index: 1;
     }
     .jeremy {
@@ -418,7 +427,7 @@ div {
         width: 768px;
         height: 640px;
         left: 0px;
-        top: 1532px;
+        top: 1432px;
         z-index: -1;
     }
     .footer {
@@ -439,12 +448,12 @@ div {
 }
 /* Mobile responsiveness */
 @media only screen and (max-width: 430px) and (min-width: 280px) {
-    main{
+    main {
         overflow-x: hidden;
         width: 375px;
         height: 100vh;
     }
-    .page{
+    .page {
         width: 375px;
         margin: 0px;
         padding: 0px;
@@ -452,6 +461,9 @@ div {
     .nav {
         width: 343px;
         left: -60px;
+    }
+    .suite {
+        left: 80px;
     }
     .beta {
         width: 182px;
@@ -471,6 +483,9 @@ div {
     }
     .path1 {
         display: none;
+    }
+    .action {
+        top: 10px;
     }
     .solution {
         top: 200px;
