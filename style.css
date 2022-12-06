@@ -325,10 +325,11 @@ div {
         width: 768px;
         margin: 0px;
         padding: 0px;
+        margin-top: 40px;
     }
     .nav {
         width: 500px;
-        left: 39px;
+        left: 40px;
     }     
     .suite {
         left: 0px;
@@ -337,20 +338,20 @@ div {
         left: -160px;
     }
     .two {
-        left: 39px;
+        left: 38px;
     }
-    .phone {
+    .phone img {
         width: 281px;
         height: 482px;
-        left: 510px;
-        top: 173px;
+        left: 10px;
+        top: 30px;
     }
     .phone1 {
         display: none;
     }
     .solution {
         top: 264px;
-        font-size: 45px;
+        font-size: 55px;
     }
     .sales {
         left: 166px;
@@ -367,7 +368,7 @@ div {
         width: 689px;
         height: 83px;
         left: 100px;
-        top: 800px;
+        top: 700px;
     }
     .small {   
         display: inherit;
@@ -379,7 +380,7 @@ div {
         width: 689px;
         height: 684px;
         left: 39px;
-        top: 1202px;
+        top: 1150px;
         z-index: 1;
     }
     .jeremy {
@@ -397,8 +398,11 @@ div {
         left: 80px;
         top: -100px;
     }
-    .path1{
-        left: 250px;
+    .path1 svg{
+        left: -5px;
+        width: 241px;
+        height: 29px;
+        top: 10px;
     }
     .path2 {
         left: 300px;
@@ -427,7 +431,7 @@ div {
         width: 768px;
         height: 640px;
         left: 0px;
-        top: 1432px;
+        top: 1370px;
         z-index: -1;
     }
     .footer {
@@ -457,6 +461,7 @@ div {
         width: 375px;
         margin: 0px;
         padding: 0px;
+        margin-top: 24px;
     }
     .nav {
         width: 343px;
