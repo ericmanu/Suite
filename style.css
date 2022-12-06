@@ -315,13 +315,13 @@ div {
 /* responsive styles */
 /*  tablet responsiveness  */  
 @media only screen and (max-width: 768px) and (min-width: 430px) {
-    main{         
+    main {         
         overflow-x: hidden;
         width: 768px;
         height: 240vh;
         scroll-behavior: smooth;
     }
-    .page{
+    .page {
         width: 768px;
         margin: 0px;
         padding: 0px;
@@ -333,7 +333,7 @@ div {
     .suite {
         left: 0px;
     }
-    .action{
+    .action {
         left: -160px;
     }
     .two {
