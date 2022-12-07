@@ -398,11 +398,13 @@ div {
         left: 80px;
         top: -100px;
     }
-    .path1 svg{
-        left: -5px;
-        width: 241px;
-        height: 29px;
-        top: 10px;
+    .path1 {
+        display: none;
+    }
+    .path{
+        display: inline;
+        left: 420px;
+        top: 230px;
     }
     .path2 {
         left: 300px;
@@ -482,12 +484,12 @@ div {
         top: -70px;
     }
     .path {
-        display: inline;
-        top: 100px;
-        left: 170px;
-    }
-    .path1 {
         display: none;
+    }
+    .path3 {
+        display: inline;
+        left: 170px;
+        top: 100px;
     }
     .action {
         top: 10px;
