@@ -12,14 +12,10 @@ body {
     font-style: normal;
 }
 main {
-    width: 1108.85px;
+    width: 100%;
     margin: 0px;
 }
-.page {
-    padding: 2rem;
-    width: 1110px;
-    color: #FAF8F6;
-}
+
 /* nav bar */
 .nav {
     margin-top: -40px;
@@ -31,7 +27,7 @@ main {
 /* logo */
 .suite {
     width: 78.41px;
-    height: 24.8px;
+    /* height: 24.8px; */
     left: 120px;
     top: 62.58px;
     color: #172339;
@@ -40,8 +36,8 @@ main {
 .beta {
     width: 219px;
     height: 56px;
-    left: 90%;
-    top: 50px;
+    left: 80%;
+    top: 62.58px;
     font-weight: 700;
     font-size: 16px;
     line-height: 32px;
@@ -318,7 +314,7 @@ div {
     main {         
         overflow-x: hidden;
         width: 768px;
-        height: 240vh;
+        height: 100vh;
         scroll-behavior: smooth;
     }
     .page {
@@ -326,6 +322,7 @@ div {
         margin: 0px;
         padding: 0px;
         margin-top: 40px;
+        height: 100%;
     }
     .nav {
         width: 500px;
@@ -333,6 +330,9 @@ div {
     }     
     .suite {
         left: 0px;
+    }
+    .beta{
+        left: 90%;
     }
     .action {
         left: -160px;
@@ -410,6 +410,9 @@ div {
         left: 300px;
         top: 270px;
      }
+     .path3 {
+         display: none;
+     }
      .works {
         height: 369px;
         left: 200px;
@@ -456,8 +459,8 @@ div {
 @media only screen and (max-width: 430px) and (min-width: 280px) {
     main {
         overflow-x: hidden;
-        width: 375px;
-        height: 100vh;
+        width: 430px;
+        height: 120vh;
     }
     .page {
         width: 375px;
@@ -467,10 +470,11 @@ div {
     }
     .nav {
         width: 343px;
-        left: -60px;
+        left: -30px;
     }
     .suite {
         left: 80px;
+        top: 75px;
     }
     .beta {
         width: 182px;
@@ -480,7 +484,7 @@ div {
     .two {
         width: 343.5px;
         height: 325.32px;
-        left: -90px;
+        left: -60px;
         top: -70px;
     }
     .path {
@@ -488,8 +492,11 @@ div {
     }
     .path3 {
         display: inline;
-        left: 170px;
+        left: 195px;
         top: 100px;
+    }
+    .path1 {
+        display: none;
     }
     .action {
         top: 10px;
@@ -517,14 +524,14 @@ div {
     .phone1{
         display: inline;
         top: 520px;
-        left: 17px;
+        left: 45px;
     }
     .four {
         display: block;        
         text-align: center;
         width: 344px;
         height: 313px;
-        left: 10px;
+        left: 45px;
         top: 835px;
     }
     .small {    
@@ -532,32 +539,33 @@ div {
         left: 80px;
     }
     .three {
-        width: 375px;
+        width: 430px;
         height: 748px;
         left: 0px;
-        top: 1490px;
+        top: 1550px;
     }
     .jeremy{
         display: none;
     }
     .jeremy1 {
         display: inline;
-        left: 80px;
+        left: 110px;
         top: -170px;
     }
     .pattern {
-        top: -100px;
+        display: none;
+        /* top: -100px;
         width: 10px;
         height:10px ;
-        left: -100px;
+        left: -100px; */
     }
         .path2 {
-        left: 150px;
+        left: 190px;
         top: 270px;
      }
      .works {
         height: 369px;
-        left: 70px;
+        left: 100px;
         top: 350px;
         font-size: 40px;
     }
@@ -576,17 +584,17 @@ div {
         left: -60px;
     }
     .foot {
-        width: 377px;
+        width: 430px;
         height: 420px;
         left: 0px;
-        top: 2100px;
+        top: 2150px;
         z-index: -1;
     }
     .footer {
         display: block;
         width: 125px;
         height: 32px;
-        left: 16px;
+        left: 50px;
         top: 300px;  
     } 
     .down-suite {
